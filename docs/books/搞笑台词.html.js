@@ -1,0 +1,14 @@
+export const data = JSON.parse("{\"key\":\"v-11fa49ed\",\"path\":\"/docs/books/%E6%90%9E%E7%AC%91%E5%8F%B0%E8%AF%8D.html\",\"title\":\"\",\"lang\":\"en-US\",\"frontmatter\":{\"0\":\"t\",\"1\":\"i\",\"2\":\"t\",\"3\":\"l\",\"4\":\"e\",\"5\":\":\",\"6\":\"搞\",\"7\":\"笑\",\"8\":\"台\",\"9\":\"词\",\"10\":\" \",\"11\":\"d\",\"12\":\"a\",\"13\":\"t\",\"14\":\"e\",\"15\":\":\",\"16\":\"2\",\"17\":\"0\",\"18\":\"2\",\"19\":\"0\",\"20\":\"/\",\"21\":\"0\",\"22\":\"5\",\"23\":\"/\",\"24\":\"2\",\"25\":\"9\"},\"headers\":[],\"git\":{},\"filePathRelative\":\"docs/books/搞笑台词.md\"}")
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}
